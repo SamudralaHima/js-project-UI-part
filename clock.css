@@ -1,0 +1,110 @@
+body{
+    background-color: #3D087B;
+}
+#time{
+    border: 1px solid #EDEDED;
+    border-radius: 5px;
+    background-color: white;
+    color: #3D087B;
+    width: 500px;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+.seting{
+    display: flex;
+    justify-content: space-evenly;
+}
+hr{
+    width: 1px;
+    height: 30px;
+    position: relative;
+    right: 165px;
+}
+#morning{
+    background-color: #5F0089;
+    color: white;
+    width: 500px;
+}
+#set{
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+}
+#set2{
+    width: 250px;
+    height: 25px;
+    padding-bottom: 30px;
+    font-size: 25px;
+    background-image: linear-gradient(90deg, blue,pink );
+}
+#alarm{
+    background-color:#5F0089 ;
+    color: #F25CFE;
+    border: 1px solid #5F0089;
+    border-radius: 10px;
+}
+#main{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+#main3{
+    width: 500px;
+    padding-left: 20px;
+}
+.box{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    border-radius: 10px;
+}
+.TIME{
+    position: relative;
+    top: 30px;
+}
+.hour{
+    background-color: #F6E2FF;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    padding-top:10px ;
+    color: #5F0089;
+}
+
+.am{
+    background-color: #CB52F8;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    color: white;
+    padding-top:10px ;
+}
+
+#some{
+    background-color: white;
+    color: #8E53F0;
+    align-items: center;
+    padding-left: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+.good{
+    padding-top: 10px;
+}
+.colon{
+    position: relative;
+    top: 30px;
+}
+
+#set2:hover{
+    content: "party time";
+}
+.niki{
+    height: 100px;
+    width:400px ;
+    background: black;
+    position: absolute;
+    top: 100px;
+    z-index:-1;
+    
+}
